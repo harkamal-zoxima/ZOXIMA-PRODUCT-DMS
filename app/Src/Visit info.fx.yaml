@@ -1,0 +1,220 @@
+"'Visit info' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Canvas2 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =138
+        ZIndex: =3
+
+        DataCard2 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =1388
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            DistLabel_5 As label:
+                Color: =RGBA(83, 173, 88, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =52
+                PaddingLeft: =20
+                Size: =21
+                Text: ="Visit Level"
+                Width: =560
+                X: =10
+                Y: =48
+                ZIndex: =2
+
+            Distributor_2 As combobox:
+                BorderColor: =RGBA(83, 173, 88, 1)
+                BorderThickness: =1
+                ChevronBackground: =RGBA(83, 173, 88, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(83,173,88,100), -20%)
+                DisplayFields: =["Value"]
+                Font: =Font.'Segoe UI'
+                Height: =70
+                HoverFill: =RGBA(210, 240, 211, 1)
+                InputTextPlaceholder: ="Search"
+                Items: =["None","Low","Medium", "High"]
+                PaddingBottom: =10
+                PressedFill: =RGBA(0, 0, 0, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Search(["None","Low","Medium", "High"],Distributor_2.SearchText,"Value")
+                SelectionColor: =RGBA(0, 0, 0, 1)
+                SelectionFill: =RGBA(210, 240, 211, 1)
+                SelectMultiple: =false
+                Size: =21
+                Width: =550
+                X: =30
+                Y: =110
+                ZIndex: =3
+
+            DistLabel_6 As label:
+                Color: =RGBA(83, 173, 88, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =52
+                PaddingLeft: =20
+                PaddingTop: =20
+                Size: =21
+                Text: ="Competition Pricing and Scheme Info"
+                Width: =560
+                X: =10
+                Y: =210
+                ZIndex: =4
+
+            TextInput7 As text:
+                BorderColor: =RGBA(83, 173, 88, 1)
+                Default: =""
+                Height: =70
+                HintText: ="Enter Brand Group"
+                HoverBorderColor: =RGBA(83, 173, 88, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Size: =21
+                Width: =550
+                X: =30
+                Y: =280
+                ZIndex: =5
+
+            DistLabel_7 As label:
+                Color: =RGBA(83, 173, 88, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =52
+                PaddingLeft: =20
+                PaddingTop: =20
+                Size: =21
+                Text: ="Visibility Brand"
+                Width: =560
+                X: =10
+                Y: =380
+                ZIndex: =6
+
+            DistLabel_12 As label:
+                Color: =RGBA(83, 173, 88, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =52
+                PaddingLeft: =20
+                PaddingTop: =20
+                Size: =21
+                Text: ="Remarks"
+                Width: =560
+                X: =10
+                Y: =540
+                ZIndex: =7
+
+            TextInput7_3 As text:
+                BorderColor: =RGBA(83, 173, 88, 1)
+                Default: =""
+                Height: =200
+                HintText: ="Enter Remarks"
+                HoverBorderColor: =RGBA(83, 173, 88, 1)
+                HoverFill: =RGBA(0, 0, 0, 0)
+                Size: =21
+                Width: =550
+                X: =30
+                Y: =600
+                ZIndex: =8
+
+            Distributor_3 As combobox:
+                BorderColor: =RGBA(83, 173, 88, 1)
+                BorderThickness: =1
+                ChevronBackground: =RGBA(83, 173, 88, 1)
+                ChevronHoverBackground: =ColorFade(RGBA(83,173,88,100), -20%)
+                DisplayFields: =["Value"]
+                Font: =Font.'Segoe UI'
+                Height: =70
+                HoverFill: =RGBA(210, 240, 211, 1)
+                InputTextPlaceholder: ="Search"
+                Items: =["Roshan Pipes","Himalaya Pipes","Ashirwad Pipes", "Pooja Pipes"]
+                PaddingBottom: =10
+                PressedFill: =RGBA(0, 0, 0, 0)
+                SearchFields: =["Value"]
+                SearchItems: =Search(["Roshan Pipes","Himalaya Pipes","Ashirwad Pipes", "Pooja Pipes"],Distributor_3.SearchText,"Value")
+                SelectionColor: =RGBA(0, 0, 0, 1)
+                SelectionFill: =RGBA(210, 240, 211, 1)
+                SelectMultiple: =false
+                Size: =21
+                Width: =550
+                X: =30
+                Y: =440
+                ZIndex: =9
+
+            DistLabel_13 As label:
+                Color: =RGBA(83, 173, 88, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =52
+                PaddingLeft: =20
+                PaddingTop: =20
+                Size: =21
+                Text: ="Take Picture"
+                Width: =560
+                X: =20
+                Y: =820
+                ZIndex: =10
+
+            Button3_15 As button:
+                Fill: =RGBA(83, 173, 88, 1)
+                Height: =77
+                HoverFill: =
+                OnSelect: =
+                PressedColor: =RGBA(255, 255, 255, 1)
+                PressedFill: =RGBA(83, 173, 88, 1)
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Size: =20
+                Text: ="SUBMIT"
+                Width: =362
+                X: =139
+                Y: =1160
+                ZIndex: =13
+
+            Group6 As group:
+                Height: =5
+                Width: =5
+                X: =60
+                Y: =60
+                ZIndex: =15
+
+                TextInput7_4 As text:
+                    BorderColor: =RGBA(83, 173, 88, 1)
+                    Default: =""
+                    DisabledBorderColor: =RGBA(83, 173, 88, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    DisplayMode: =DisplayMode.Disabled
+                    Height: =200
+                    HintText: =""
+                    Size: =21
+                    Width: =550
+                    X: =40
+                    Y: =880
+                    ZIndex: =1
+
+                UploadedImage1 As image:
+                    Height: =162
+                    Image: =If(IsBlank(AddMediaButton1.Media), SampleImage, AddMediaButton1.Media)
+                    ImagePosition: =ImagePosition.Fill
+                    Width: =417
+                    X: =54
+                    Y: =900
+                    ZIndex: =11
+
+                AddMediaButton1 As addMedia:
+                    Height: =212
+                    Size: =25
+                    Width: =417
+                    X: =54
+                    Y: =880
+                    ZIndex: =12
+

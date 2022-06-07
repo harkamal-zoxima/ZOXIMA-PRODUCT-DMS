@@ -1,0 +1,60 @@
+Screen6 As screen:
+
+    Image6 As image:
+        Height: =506
+        Image: =Login
+        Width: =584
+        X: =28
+        Y: =28
+        ZIndex: =1
+
+    TextInput7_1 As text:
+        BorderColor: =RGBA(83, 173, 88, 1)
+        BorderThickness: =1
+        Default: =""
+        Height: =70
+        HintText: ="Username"
+        HoverBorderColor: =RGBA(83, 173, 88, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Size: =21
+        Width: =550
+        X: =45
+        Y: =582
+        ZIndex: =2
+
+    TextInput7_2 As text:
+        BorderColor: =RGBA(83, 173, 88, 1)
+        BorderThickness: =1
+        Default: =""
+        Height: =70
+        HintText: ="Password"
+        HoverBorderColor: =RGBA(83, 173, 88, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Size: =21
+        Width: =550
+        X: =45
+        Y: =689
+        ZIndex: =3
+
+    Button3 As button:
+        Fill: =RGBA(103, 204, 108, 1)
+        Height: =70
+        HoverFill: =ColorFade(RGBA(103, 204, 108, 1), -20%)
+        Size: =24
+        Text: ="LOGIN"
+        Width: =550
+        X: =45
+        Y: =820
+        ZIndex: =4
+
+    Label8 As label:
+        Color: =RGBA(103, 204, 108, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =21
+        Text: ="Forgot Password ?"
+        Width: =256
+        X: =192
+        Y: =913
+        ZIndex: =5
+

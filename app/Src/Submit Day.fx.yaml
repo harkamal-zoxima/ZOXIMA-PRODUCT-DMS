@@ -1,0 +1,162 @@
+"'Submit Day' As screen":
+
+    Image5_2 As image:
+        Height: =570
+        Image: ='START SCREEN – 10'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =481
+        ZIndex: =1
+
+    "'Side Bar_7' As 'Side Bar'":
+        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
+        Height: =942
+        ZIndex: =3
+
+    "'Bottom Navigation_5' As 'Bottom Navigation'":
+        Y: =1056
+        ZIndex: =4
+
+    HtmlText1_24 As htmlViewer:
+        Color: =RGBA(103, 204, 107, 1)
+        Height: =334
+        HtmlText: |-
+            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Width: =640
+        ZIndex: =20
+
+    HtmlText1_23 As htmlViewer:
+        BorderThickness: =1
+        Height: =313
+        HtmlText: |-
+            ="<div style='border-radius:10px; background-color:#FFF; width:500px; height:290px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =10
+        PaddingRight: =0
+        PaddingTop: =10
+        Width: =514
+        X: =63
+        Y: =68
+        ZIndex: =21
+
+    Image1_4 As image:
+        BorderColor: =RGBA(204, 204, 204, 1)
+        BorderThickness: =1
+        Height: =119
+        Image: =emp
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Width: =123
+        X: =259
+        Y: =188
+        ZIndex: =22
+
+    Label3_19 As label:
+        Color: =RGBA(103, 204, 107, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =44
+        Size: =20
+        Text: ="Vaishali Jindal"
+        Width: =190
+        X: =225
+        Y: =130
+        ZIndex: =23
+
+    Label3_18 As label:
+        Color: =RGBA(242, 123, 68, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =20
+        Text: ="Salesperson"
+        Width: =110
+        X: =265
+        Y: =320
+        ZIndex: =24
+
+    Label3_17 As label:
+        Color: =RGBA(116, 116, 116, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =44
+        Size: =20
+        Text: ="WELCOME BACK !"
+        Width: =240
+        X: =200
+        Y: =94
+        ZIndex: =25
+
+    "'Side Bar_8' As 'Side Bar'":
+        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
+        Height: =1136
+        ZIndex: =26
+
+    Group2_6 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =29
+
+        HtmlText2_8 As htmlViewer:
+            Height: =123
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('End day', ScreenTransition.Fade)
+            Width: =378
+            X: =131
+            Y: =482
+            ZIndex: =27
+
+        Label3_20 As label:
+            Align: =Align.Center
+            Color: =RGBA(83, 173, 88, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =70
+            OnSelect: =Navigate('End day', ScreenTransition.Fade)
+            Size: =24
+            Text: ="SUBMIT"
+            Width: =289
+            X: =173
+            Y: =498
+            ZIndex: =28
+
+    Group3_1 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =31
+
+        HtmlText2_9 As htmlViewer:
+            Height: =113
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Select Day Type', ScreenTransition.Fade)
+            Size: =25
+            Width: =378
+            X: =131
+            Y: =603
+            ZIndex: =29
+
+        Label3_21 As label:
+            Align: =Align.Center
+            Color: =RGBA(83, 173, 88, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =65
+            OnSelect: =Navigate('Select Day Type', ScreenTransition.Fade)
+            Size: =24
+            Text: ="CANCEL"
+            Width: =289
+            X: =172
+            Y: =621
+            ZIndex: =30
+

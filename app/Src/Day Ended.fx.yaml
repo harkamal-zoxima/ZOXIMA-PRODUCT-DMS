@@ -1,0 +1,129 @@
+"'Day Ended' As screen":
+
+    Image5_4 As image:
+        Height: =570
+        Image: ='START SCREEN – 10'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =481
+        ZIndex: =1
+
+    "'Side Bar_12' As 'Side Bar'":
+        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
+        Height: =942
+        ZIndex: =2
+
+    "'Bottom Navigation_10' As 'Bottom Navigation'":
+        Y: =1056
+        ZIndex: =3
+
+    HtmlText1_35 As htmlViewer:
+        Color: =RGBA(103, 204, 107, 1)
+        Height: =334
+        HtmlText: |-
+            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Width: =640
+        ZIndex: =4
+
+    HtmlText1_36 As htmlViewer:
+        BorderThickness: =1
+        Height: =313
+        HtmlText: |-
+            ="<div style='border-radius:10px; background-color:#FFF; width:500px; height:290px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =10
+        PaddingRight: =0
+        PaddingTop: =10
+        Width: =514
+        X: =63
+        Y: =68
+        ZIndex: =5
+
+    Image1_6 As image:
+        BorderColor: =RGBA(204, 204, 204, 1)
+        BorderThickness: =1
+        Height: =119
+        Image: =emp
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Width: =123
+        X: =259
+        Y: =188
+        ZIndex: =6
+
+    Label3_27 As label:
+        Color: =RGBA(103, 204, 107, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =44
+        Size: =20
+        Text: ="Vaishali Jindal"
+        Width: =190
+        X: =225
+        Y: =130
+        ZIndex: =7
+
+    Label3_28 As label:
+        Color: =RGBA(242, 123, 68, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =20
+        Text: ="Salesperson"
+        Width: =110
+        X: =265
+        Y: =320
+        ZIndex: =8
+
+    Label3_26 As label:
+        Color: =RGBA(116, 116, 116, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =44
+        Size: =20
+        Text: ="WELCOME BACK !"
+        Width: =240
+        X: =200
+        Y: =94
+        ZIndex: =9
+
+    "'Side Bar_13' As 'Side Bar'":
+        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
+        Height: =1136
+        ZIndex: =10
+
+    Group3_3 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =31
+
+        HtmlText2_12 As htmlViewer:
+            Height: =136
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:400px; height:120px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Size: =25
+            Width: =416
+            X: =131
+            Y: =499
+            ZIndex: =11
+
+        Label3_29 As label:
+            Align: =Align.Center
+            Color: =RGBA(83, 173, 88, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =81
+            Size: =24
+            Text: ="Your day has been ended."
+            Width: =317
+            X: =180
+            Y: =526
+            ZIndex: =12
+

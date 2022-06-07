@@ -1,0 +1,791 @@
+"'Customer info' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Canvas3 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =654
+        Width: =Parent.Width
+        Y: =376
+        ZIndex: =3
+
+        DataCard3 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =2806
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label62_3 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =70
+                Size: =25
+                Text: ="General"
+                Width: =560
+                X: =40
+                Y: =7
+                ZIndex: =8
+
+            Label52_37 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="Customer No./Nav Code"
+                Width: =560
+                X: =40
+                Y: =77
+                ZIndex: =9
+
+            TextInput3_27 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =202
+                ZIndex: =10
+
+            Label52_62 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="Customer Name"
+                Width: =560
+                X: =40
+                Y: =218
+                ZIndex: =11
+
+            TextInput3_28 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =340
+                ZIndex: =12
+
+            Label52_63 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="Customer Name/Owner Name"
+                Width: =560
+                X: =40
+                Y: =357
+                ZIndex: =13
+
+            TextInput3_31 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =482
+                ZIndex: =14
+
+            Label62_4 As label:
+                Color: =RGBA(237, 27, 36, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =70
+                Size: =25
+                Text: ="Billing Address"
+                Width: =560
+                X: =40
+                Y: =498
+                ZIndex: =15
+
+            Label52_64 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="Address Line 1"
+                Width: =560
+                X: =40
+                Y: =568
+                ZIndex: =16
+
+            TextInput3_32 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =692
+                ZIndex: =17
+
+            Label52_65 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="Address Line 2"
+                Width: =560
+                X: =40
+                Y: =697
+                ZIndex: =18
+
+            TextInput3_35 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =818
+                ZIndex: =19
+
+            Label52_32 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="Zone"
+                Width: =185
+                X: =60
+                Y: =836
+                ZIndex: =20
+
+            TextInput3_24 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =237
+                X: =60
+                Y: =948
+                ZIndex: =21
+
+            Label52_33 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="Sub State"
+                Width: =269
+                X: =331
+                Y: =836
+                ZIndex: =22
+
+            TextInput3_25 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =269
+                X: =331
+                Y: =948
+                ZIndex: =23
+
+            Label52_36 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="District"
+                Width: =185
+                X: =60
+                Y: =961
+                ZIndex: =24
+
+            TextInput3_36 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =237
+                X: =60
+                Y: =1081
+                ZIndex: =25
+
+            Label52_66 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="City/Town"
+                Width: =269
+                X: =331
+                Y: =961
+                ZIndex: =26
+
+            TextInput3_37 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =269
+                X: =331
+                Y: =1081
+                ZIndex: =27
+
+            Label52_67 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="Pin Code"
+                Width: =185
+                X: =60
+                Y: =1101
+                ZIndex: =28
+
+            TextInput3_38 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =237
+                X: =60
+                Y: =1221
+                ZIndex: =29
+
+            Label52_68 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="Area"
+                Width: =269
+                X: =331
+                Y: =1101
+                ZIndex: =30
+
+            TextInput3_39 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =269
+                X: =331
+                Y: =1221
+                ZIndex: =31
+
+            Label62_5 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =70
+                Size: =25
+                Text: ="Communication"
+                Width: =560
+                X: =40
+                Y: =1251
+                ZIndex: =32
+
+            Label52_69 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="Contact Person"
+                Width: =560
+                X: =40
+                Y: =1321
+                ZIndex: =33
+
+            TextInput3_40 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =1443
+                ZIndex: =34
+
+            Label52_70 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="Email ID"
+                Width: =560
+                X: =40
+                Y: =1715
+                ZIndex: =35
+
+            TextInput3_41 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =1840
+                ZIndex: =36
+
+            Label52_71 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="Mobile No."
+                Width: =185
+                X: =60
+                Y: =1463
+                ZIndex: =37
+
+            TextInput3_42 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =237
+                X: =60
+                Y: =1575
+                ZIndex: =38
+
+            Label52_72 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="Alternate Mobile"
+                Width: =269
+                X: =331
+                Y: =1463
+                ZIndex: =39
+
+            TextInput3_43 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =269
+                X: =331
+                Y: =1575
+                ZIndex: =40
+
+            Label52_73 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =55
+                Size: =21
+                Text: ="Phone Number"
+                Width: =237
+                X: =60
+                Y: =1589
+                ZIndex: =41
+
+            TextInput3_44 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =237
+                X: =60
+                Y: =1709
+                ZIndex: =42
+
+            Label62_6 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =70
+                Size: =25
+                Text: ="Tax Information"
+                Width: =560
+                X: =40
+                Y: =1872
+                ZIndex: =43
+
+            Label52_74 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="C.S.T No."
+                Width: =560
+                X: =40
+                Y: =1942
+                ZIndex: =44
+
+            TextInput3_45 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =2065
+                ZIndex: =45
+
+            Label52_75 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="L.S.T No."
+                Width: =560
+                X: =40
+                Y: =2083
+                ZIndex: =46
+
+            TextInput3_46 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =2207
+                ZIndex: =47
+
+            Label52_76 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="T.I.N No."
+                Width: =560
+                X: =40
+                Y: =2222
+                ZIndex: =48
+
+            TextInput3_47 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =2347
+                ZIndex: =49
+
+            Label52_77 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="G.S.T No."
+                Width: =560
+                X: =40
+                Y: =2360
+                ZIndex: =50
+
+            TextInput3_48 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =2485
+                ZIndex: =51
+
+            Label52_78 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =21
+                Text: ="PAN No."
+                Width: =560
+                X: =40
+                Y: =2503
+                ZIndex: =52
+
+            TextInput3_49 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =1
+                Default: =
+                Height: =0
+                HintText: =""
+                Size: =21
+                Width: =560
+                X: =40
+                Y: =2628
+                ZIndex: =53
+
+            Label11 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =49
+                Y: =132
+                ZIndex: =54
+
+            Label11_1 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =49
+                Y: =268
+                ZIndex: =55
+
+            Label11_2 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =40
+                Y: =408
+                ZIndex: =56
+
+            Label11_3 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =44
+                Y: =352
+                ZIndex: =57
+
+            Label11_4 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =49
+                Y: =476
+                ZIndex: =58
+
+            Label11_5 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =237
+                X: =60
+                Y: =608
+                ZIndex: =59
+
+            Label11_6 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =237
+                X: =334
+                Y: =608
+                ZIndex: =60
+
+            Label11_7 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =237
+                X: =60
+                Y: =743
+                ZIndex: =61
+
+            Label11_8 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =237
+                X: =60
+                Y: =879
+                ZIndex: =62
+
+            Label11_9 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =252
+                X: =338
+                Y: =882
+                ZIndex: =63
+
+            Label11_10 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =49
+                Y: =1100
+                ZIndex: =64
+
+            Label11_11 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =237
+                X: =334
+                Y: =737
+                ZIndex: =65
+
+            Label11_12 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =237
+                X: =60
+                Y: =1235
+                ZIndex: =66
+
+            Label11_13 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =237
+                X: =345
+                Y: =1230
+                ZIndex: =67
+
+            Label11_14 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =237
+                X: =60
+                Y: =1369
+                ZIndex: =68
+
+            Label11_15 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =49
+                Y: =1494
+                ZIndex: =69
+
+            Label11_16 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =51
+                Y: =1722
+                ZIndex: =70
+
+            Label11_17 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =44
+                Y: =1866
+                ZIndex: =71
+
+            Label11_18 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =40
+                Y: =2007
+                ZIndex: =72
+
+            Label11_19 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =44
+                Y: =2145
+                ZIndex: =73
+
+            Label11_20 As label:
+                Height: =70
+                Size: =21
+                Text: =""
+                Width: =531
+                X: =44
+                Y: =2288
+                ZIndex: =74
+
+    Label61_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =28
+        Text: ="Distributor Profile"
+        Width: =560
+        X: =70
+        Y: =20
+        ZIndex: =4
+
+    Label62_2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =89
+        Size: =19
+        Text: ="Shivshakti trading"
+        Width: =360
+        X: =40
+        Y: =116
+        ZIndex: =5
+
+    Label63_1 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =62
+        Size: =15
+        Text: |-
+            ="Customer ID:"
+        Width: =190
+        X: =40
+        Y: =186
+        ZIndex: =6
+
+    Button9_1 As button:
+        Fill: =RGBA(103, 204, 107, 1)
+        Height: =67
+        HoverFill: =ColorFade(RGBA(255, 0, 0, 1), -20%)
+        Size: =18
+        Text: ="Capture GEO Location"
+        Width: =322
+        X: =40
+        Y: =248
+        ZIndex: =7
+
+    Label65_1 As label:
+        Color: =RGBA(103, 204, 107, 1)
+        Height: =52
+        Text: ="Loyalty Points"
+        Width: =143
+        X: =476
+        Y: =263
+        ZIndex: =8
+
+    Label66_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =62
+        Size: =21
+        Text: ="NA"
+        Width: =77
+        X: =530
+        Y: =216
+        ZIndex: =9
+
+    CustomerDetailsTopTab_2 As CustomerDetailsTopTab:
+        Y: =325
+        ZIndex: =10
+
+    Rectangle3 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =1
+        Width: =640
+        Y: =386
+        ZIndex: =11
+
+    "'Bottom Navigation_8' As 'Bottom Navigation'":
+        Y: =1055
+        ZIndex: =12
+

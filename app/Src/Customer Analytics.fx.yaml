@@ -1,0 +1,565 @@
+"'Customer Analytics' As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Canvas3_1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =641
+        Width: =Parent.Width
+        Y: =397
+        ZIndex: =3
+
+        DataCard3_1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: |-
+                =//3193
+                Parent.Height+100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Rectangle17_6 As rectangle:
+                BorderColor: =RGBA(141, 198, 63, 1)
+                BorderThickness: =1
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =301
+                Width: =514
+                X: =63
+                Y: =1210
+                ZIndex: =1
+
+            Rectangle17 As rectangle:
+                BorderColor: =RGBA(103, 204, 107, 1)
+                BorderThickness: =1
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =148
+                Width: =514
+                X: =63
+                Y: =12
+                ZIndex: =2
+
+            Label62_8 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =72
+                Size: =19
+                Text: ="Loyality Points"
+                Width: =442
+                X: =88
+                Y: =22
+                ZIndex: =3
+
+            Label62 As label:
+                Color: =RGBA(103, 204, 107, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =77
+                Size: =17
+                Text: ="12"
+                Width: =64
+                X: =449
+                Y: =93
+                ZIndex: =4
+
+            Label12_1 As label:
+                Color: =RGBA(141, 198, 63, 1)
+                Height: =29
+                Text: ="1"
+                Width: =65
+                X: =466
+                Y: =377
+                ZIndex: =11
+
+            Button9 As button:
+                Fill: =RGBA(103, 204, 107, 1)
+                Height: =73
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =19
+                Text: ="Create Payment Terms"
+                Width: =375
+                X: =133
+                Y: =578
+                ZIndex: =12
+
+            Rectangle17_5 As rectangle:
+                BorderColor: =RGBA(141, 198, 63, 1)
+                BorderThickness: =1
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =461
+                Width: =514
+                X: =63
+                Y: =720
+                ZIndex: =13
+
+            Group8 As group:
+                Height: =5
+                Width: =5
+                X: =60
+                Y: =60
+                ZIndex: =13
+
+                Rectangle17_1 As rectangle:
+                    BorderColor: =RGBA(103, 204, 107, 1)
+                    BorderThickness: =1
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Height: =324
+                    Width: =514
+                    X: =63
+                    Y: =207
+                    ZIndex: =5
+
+                Label62_10 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =71
+                    Size: =19
+                    Text: |-
+                        ="Sales Overview         
+                        "
+                    Width: =277
+                    X: =85
+                    Y: =226
+                    ZIndex: =6
+
+                Label62_11 As label:
+                    Color: =RGBA(103, 204, 107, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =71
+                    Size: =19
+                    Text: |-
+                        ="(in Lakhs)    
+                        "
+                    Width: =277
+                    X: =85
+                    Y: =254
+                    ZIndex: =7
+
+            Label62_12 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =47
+                Size: =19
+                Text: ="Payment Terms"
+                Width: =375
+                X: =193
+                Y: =733
+                ZIndex: =14
+
+            Button2 As button:
+                DisabledBorderColor: =RGBA(141, 198, 63, 1)
+                DisabledColor: =RGBA(255, 255, 255, 1)
+                DisabledFill: =RGBA(103, 204, 107, 1)
+                DisplayMode: =DisplayMode.Disabled
+                FontWeight: =FontWeight.Normal
+                Height: =57
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =17
+                Text: ="ITEM CLASS"
+                Width: =195
+                X: =73
+                Y: =792
+                ZIndex: =15
+
+            Button2_1 As button:
+                DisabledBorderColor: =RGBA(141, 198, 63, 1)
+                DisabledColor: =RGBA(255, 255, 255, 1)
+                DisabledFill: =RGBA(103, 204, 107, 1)
+                DisplayMode: =DisplayMode.Disabled
+                FontWeight: =FontWeight.Normal
+                Height: =57
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
+                Size: =17
+                Text: ="PAYMENT TERMS DAYS"
+                Width: =286
+                X: =278
+                Y: =792
+                ZIndex: =16
+
+            Group9 As group:
+                Height: =5
+                Width: =5
+                X: =80
+                Y: =80
+                ZIndex: =17
+
+                PieChart2 As pieChart:
+                    Height: =186
+                    Items: |-
+                        =Table({name:"Target", value: 3}, {name: "Acheived", value:1})
+                    Width: =168
+                    X: =80
+                    Y: =310
+                    ZIndex: =8
+
+                Legend2 As legend:
+                    FontWeight: =FontWeight.Bold
+                    Height: =208
+                    ItemColorSet: =PieChart2.ItemColorSet
+                    Items: |-
+                        =Table({name:"Target", value: 4.40, Label:"Target :"},{name: "Achieved", value: 5, Label:"Balance :"})
+                        //Table({ Label:"Target :"},{ Label:"Balance :"})
+                    Size: =19
+                    Width: =182
+                    X: =294
+                    Y: =323
+                    ZIndex: =9
+
+                Label12 As label:
+                    Color: =RGBA(141, 198, 63, 1)
+                    Height: =29
+                    Text: ="3"
+                    Width: =65
+                    X: =465
+                    Y: =335
+                    ZIndex: =10
+
+            Group11 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =26
+
+                Rectangle5 As rectangle:
+                    Fill: =RGBA(210, 240, 211, 1)
+                    Height: =68
+                    Width: =494
+                    X: =73
+                    Y: =862
+                    ZIndex: =17
+
+                Label14 As label:
+                    Color: =RGBA(83, 179, 159, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    Size: =19
+                    Text: ="FITTINGS"
+                    Width: =208
+                    X: =83
+                    Y: =880
+                    ZIndex: =18
+
+                Label14_1 As label:
+                    Color: =RGBA(83, 179, 159, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    Size: =19
+                    Text: ="10"
+                    Width: =208
+                    X: =335
+                    Y: =880
+                    ZIndex: =19
+
+            Button9_3 As button:
+                BorderStyle: =BorderStyle.None
+                DisabledBorderColor: =RGBA(230, 230, 230, 1)
+                DisabledFill: =RGBA(103, 204, 107, 1)
+                DisplayMode: =DisplayMode.Disabled
+                Fill: =RGBA(237, 27, 36, 1)
+                Height: =113
+                Size: =24
+                Text: =""
+                Width: =157
+                X: =70
+                Y: =1303
+                ZIndex: =29
+
+            Group11_1 As group:
+                Height: =5
+                Width: =5
+                X: =-33
+                Y: =-822
+                ZIndex: =29
+
+                Rectangle5_1 As rectangle:
+                    Fill: =RGBA(210, 240, 211, 1)
+                    Height: =68
+                    Width: =494
+                    X: =73
+                    Y: =940
+                    ZIndex: =20
+
+                Label14_2 As label:
+                    Color: =RGBA(83, 179, 159, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    Size: =19
+                    Text: ="FITTINGS"
+                    Width: =208
+                    X: =83
+                    Y: =958
+                    ZIndex: =21
+
+                Label14_3 As label:
+                    Color: =RGBA(83, 179, 159, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    Size: =19
+                    Text: ="10"
+                    Width: =208
+                    X: =335
+                    Y: =958
+                    ZIndex: =22
+
+            Label62_13 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Bold
+                Height: =59
+                Size: =19
+                Text: ="Complaints"
+                Width: =461
+                X: =73
+                Y: =1219
+                ZIndex: =30
+
+            Button9_4 As button:
+                BorderStyle: =BorderStyle.None
+                DisabledFill: =RGBA(103, 204, 107, 1)
+                DisplayMode: =DisplayMode.Disabled
+                Fill: =RGBA(237, 27, 36, 1)
+                Height: =113
+                Size: =24
+                Text: =""
+                Width: =157
+                X: =239
+                Y: =1303
+                ZIndex: =31
+
+            Button9_5 As button:
+                BorderStyle: =BorderStyle.None
+                DisabledFill: =RGBA(103, 204, 107, 1)
+                DisplayMode: =DisplayMode.Disabled
+                Fill: =RGBA(237, 27, 36, 1)
+                Height: =113
+                Size: =24
+                Text: =""
+                Width: =157
+                X: =407
+                Y: =1303
+                ZIndex: =32
+
+            Group11_2 As group:
+                Height: =5
+                Width: =5
+                X: =-33
+                Y: =-900
+                ZIndex: =32
+
+                Rectangle5_2 As rectangle:
+                    Fill: =RGBA(210, 240, 211, 1)
+                    Height: =68
+                    Width: =494
+                    X: =73
+                    Y: =1020
+                    ZIndex: =23
+
+                Label14_4 As label:
+                    Color: =RGBA(83, 179, 159, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    Size: =19
+                    Text: ="FITTINGS"
+                    Width: =208
+                    X: =83
+                    Y: =1028
+                    ZIndex: =24
+
+                Label14_5 As label:
+                    Color: =RGBA(83, 179, 159, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    Size: =19
+                    Text: ="10"
+                    Width: =208
+                    X: =335
+                    Y: =1028
+                    ZIndex: =25
+
+            Label15 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =50
+                Size: =17
+                Text: ="12"
+                Width: =80
+                X: =120
+                Y: =1310
+                ZIndex: =33
+
+            Label15_1 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =50
+                Size: =17
+                Text: ="12"
+                Width: =80
+                X: =300
+                Y: =1310
+                ZIndex: =34
+
+            Label15_2 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =50
+                Size: =17
+                Text: ="12"
+                Width: =80
+                X: =467
+                Y: =1310
+                ZIndex: =35
+
+            Group11_3 As group:
+                Height: =5
+                Width: =5
+                X: =-33
+                Y: =-980
+                ZIndex: =35
+
+                Rectangle5_3 As rectangle:
+                    Fill: =RGBA(210, 240, 211, 1)
+                    Height: =68
+                    Width: =494
+                    X: =73
+                    Y: =1100
+                    ZIndex: =26
+
+                Label14_6 As label:
+                    Color: =RGBA(83, 179, 159, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    Size: =19
+                    Text: ="FITTINGS"
+                    Width: =208
+                    X: =83
+                    Y: =1108
+                    ZIndex: =27
+
+                Label14_7 As label:
+                    Color: =RGBA(83, 179, 159, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =31
+                    Size: =19
+                    Text: ="10"
+                    Width: =208
+                    X: =335
+                    Y: =1108
+                    ZIndex: =28
+
+            Label15_3 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =50
+                Size: =17
+                Text: ="Pending"
+                Width: =134
+                X: =90
+                Y: =1350
+                ZIndex: =36
+
+            Label15_4 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =50
+                Size: =17
+                Text: ="Resolved"
+                Width: =134
+                X: =270
+                Y: =1350
+                ZIndex: =37
+
+            Label15_5 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =62
+                Size: =17
+                Text: ="WIP"
+                Width: =134
+                X: =460
+                Y: =1344
+                ZIndex: =38
+
+    Label61_2 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =20
+        Text: ="Distributor Profile"
+        Width: =360
+        X: =110
+        Y: =10
+        ZIndex: =4
+
+    Label62_7 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =89
+        Size: =19
+        Text: ="Shivshakti trading"
+        Width: =360
+        X: =40
+        Y: =96
+        ZIndex: =5
+
+    Label63_2 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =62
+        Size: =15
+        Text: |-
+            ="Customer ID:"
+        Width: =190
+        X: =40
+        Y: =166
+        ZIndex: =6
+
+    Button9_2 As button:
+        Fill: =RGBA(103, 204, 107, 1)
+        Height: =67
+        HoverFill: =ColorFade(RGBA(255, 0, 0, 1), -20%)
+        Size: =18
+        Text: ="Capture GEO Location"
+        Width: =322
+        X: =40
+        Y: =238
+        ZIndex: =7
+
+    Label65_2 As label:
+        Color: =RGBA(103, 204, 107, 1)
+        Height: =52
+        Text: ="Loyalty Points"
+        Width: =143
+        X: =476
+        Y: =263
+        ZIndex: =8
+
+    Label66_2 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =62
+        Size: =21
+        Text: ="NA"
+        Width: =77
+        X: =530
+        Y: =216
+        ZIndex: =9
+
+    CustomerDetailsTopTab_1 As CustomerDetailsTopTab:
+        Y: =326
+        ZIndex: =10
+
+    Rectangle4 As rectangle:
+        Fill: =RGBA(0, 0, 0, 1)
+        Height: =1
+        Width: =640
+        Y: =396
+        ZIndex: =11
+
+    "'Bottom Navigation_7' As 'Bottom Navigation'":
+        Y: =1055
+        ZIndex: =12
+

@@ -1,0 +1,472 @@
+Screen7 As screen:
+
+    Label5_23 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Order No."
+        Width: =130
+        X: =47
+        Y: =42
+        ZIndex: =1
+
+    Label5_24 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =41
+        Y: =91
+        ZIndex: =2
+
+    Rectangle1_10 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =47
+        Y: =113
+        ZIndex: =3
+
+    Label5_25 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Nav Order No."
+        Width: =130
+        X: =324
+        Y: =40
+        ZIndex: =4
+
+    Label5_26 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =325
+        Y: =89
+        ZIndex: =5
+
+    Rectangle1_11 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =331
+        Y: =111
+        ZIndex: =6
+
+    Label5_27 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Distributor"
+        Width: =130
+        X: =47
+        Y: =148
+        ZIndex: =7
+
+    Label5_28 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =320
+        X: =48
+        Y: =180
+        ZIndex: =8
+
+    Rectangle1_12 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =520
+        X: =54
+        Y: =202
+        ZIndex: =9
+
+    Label5_29 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Order Type"
+        Width: =130
+        X: =41
+        Y: =227
+        ZIndex: =10
+
+    Label5_30 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =42
+        Y: =259
+        ZIndex: =11
+
+    Rectangle1_13 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =48
+        Y: =281
+        ZIndex: =12
+
+    Label5_31 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Order Date"
+        Width: =130
+        X: =331
+        Y: =225
+        ZIndex: =13
+
+    Label5_32 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =332
+        Y: =257
+        ZIndex: =14
+
+    Label5_33 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Order Source"
+        Width: =130
+        X: =40
+        Y: =299
+        ZIndex: =15
+
+    Label5_34 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =41
+        Y: =331
+        ZIndex: =16
+
+    Rectangle1_15 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =47
+        Y: =353
+        ZIndex: =17
+
+    Label5_35 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Order Status"
+        Width: =130
+        X: =331
+        Y: =299
+        ZIndex: =18
+
+    Label5_36 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =333
+        Y: =331
+        ZIndex: =19
+
+    Label5_37 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Item Class"
+        Width: =130
+        X: =40
+        Y: =374
+        ZIndex: =20
+
+    Label5_38 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =41
+        Y: =406
+        ZIndex: =21
+
+    Rectangle1_17 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =47
+        Y: =428
+        ZIndex: =22
+
+    Label5_39 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Schedule Date of Delivery"
+        Width: =215
+        X: =331
+        Y: =373
+        ZIndex: =23
+
+    Label5_40 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =336
+        Y: =404
+        ZIndex: =24
+
+    Label5_41 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Document No."
+        Width: =130
+        X: =40
+        Y: =447
+        ZIndex: =25
+
+    Label5_42 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =41
+        Y: =479
+        ZIndex: =26
+
+    Rectangle1_19 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =47
+        Y: =501
+        ZIndex: =27
+
+    Label5_43 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Reference No."
+        Width: =130
+        X: =338
+        Y: =445
+        ZIndex: =28
+
+    Label5_44 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =336
+        Y: =477
+        ZIndex: =29
+
+    Label5_45 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Remarks"
+        Width: =130
+        X: =41
+        Y: =517
+        ZIndex: =30
+
+    Label5_46 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =320
+        X: =42
+        Y: =549
+        ZIndex: =31
+
+    Rectangle1_21 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =520
+        X: =48
+        Y: =571
+        ZIndex: =32
+
+    Label5_47 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="No. of Bags"
+        Width: =130
+        X: =41
+        Y: =585
+        ZIndex: =33
+
+    Label5_48 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =42
+        Y: =617
+        ZIndex: =34
+
+    Rectangle1_22 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =48
+        Y: =639
+        ZIndex: =35
+
+    Label5_49 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Total Quantity"
+        Width: =130
+        X: =338
+        Y: =585
+        ZIndex: =36
+
+    Label5_51 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Order Value(without Discount)"
+        Width: =245
+        X: =41
+        Y: =658
+        ZIndex: =37
+
+    Label5_52 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =42
+        Y: =690
+        ZIndex: =38
+
+    Rectangle1_24 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =48
+        Y: =712
+        ZIndex: =39
+
+    Label5_53 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Total Amount"
+        Width: =130
+        X: =338
+        Y: =656
+        ZIndex: =40
+
+    Label5_55 As label:
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Bold
+        Height: =32
+        Size: =12
+        Text: ="Order Value(with Discount)"
+        Width: =236
+        X: =41
+        Y: =725
+        ZIndex: =41
+
+    Label5_56 As label:
+        Color: =RGBA(128, 128, 128, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Size: =12
+        Text: =
+        Width: =235
+        X: =42
+        Y: =757
+        ZIndex: =42
+
+    Rectangle1_26 As rectangle:
+        Fill: =RGBA(179, 179, 179, 1)
+        Height: =2
+        Width: =238
+        X: =48
+        Y: =779
+        ZIndex: =43
+

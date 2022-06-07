@@ -1,0 +1,167 @@
+"'Plan visit' As screen":
+
+    HtmlText2 As htmlViewer:
+        Height: =205
+        HtmlText: |-
+            ="<div style='border-radius:0 0 50px 50px; background-color:#67CC6B; width:630px; height:160px'></div>"
+        Width: =640
+        ZIndex: =1
+
+    DatePicker1 As datepicker:
+        BorderStyle: =BorderStyle.None
+        Color: =RGBA(141, 198, 63, 1)
+        Height: =48
+        IconBackground: =RGBA(0, 0, 0, 0)
+        IconFill: =RGBA(103, 204, 107, 1)
+        Size: =24
+        Width: =299
+        X: =309
+        Y: =32
+        ZIndex: =2
+
+    Gallery2 As gallery.galleryVertical:
+        Height: =858
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplateSize: =If(Self.Layout = Layout.Horizontal, Min(280, Self.Width - 60), Min(280, Self.Height - 60))
+        Y: =177
+        ZIndex: =3
+
+        Label7 As label:
+            Color: =RGBA(103, 204, 107, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: ="Panchsheel titles"
+            Width: =264
+            X: =30
+            Y: =30
+            ZIndex: =1
+
+        TextInput2 As text:
+            BorderColor: =RGBA(103, 204, 107, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(103, 204, 107, 1)
+            DisabledFill: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Height: =264
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Size: =21
+            Width: =606
+            X: =12
+            Y: =2
+            ZIndex: =2
+
+        Label9 As label:
+            Color: =RGBA(83, 173, 88, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: ="Panchsheel titles"
+            Width: =240
+            X: =30
+            Y: =20
+            ZIndex: =3
+
+        Label10 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =48
+            OnSelect: =Select(Parent)
+            Text: ="Shop no.1,ground floor,sai darshan apt,katrap road,badlapur east"
+            Width: =338
+            X: =30
+            Y: =70
+            ZIndex: =4
+
+        Label39_7 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Last Order Date"
+            Width: =228
+            X: =30
+            Y: =130
+            ZIndex: =5
+
+        Label39_8 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Last Visit Date"
+            Width: =228
+            X: =30
+            Y: =160
+            ZIndex: =6
+
+        Button1 As button:
+            BorderThickness: =1
+            Fill: =RGBA(103, 204, 107, 1)
+            Height: =37
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =5
+            RadiusBottomRight: =5
+            RadiusTopLeft: =5
+            RadiusTopRight: =5
+            Size: =13
+            Text: ="ADD"
+            Width: =144
+            X: =248
+            Y: =210
+            ZIndex: =7
+
+        Circle2_1 As circle:
+            Fill: =RGBA(103, 204, 107, 1)
+            Height: =70
+            OnSelect: =Select(Parent)
+            Width: =70
+            X: =440
+            Y: =20
+            ZIndex: =10
+
+        Group5 As group:
+            Height: =5
+            Width: =5
+            X: =40
+            Y: =40
+            ZIndex: =10
+
+            Circle2 As circle:
+                Fill: =RGBA(39, 113, 194, 1)
+                Height: =70
+                OnSelect: =Select(Parent)
+                Width: =70
+                X: =538
+                Y: =20
+                ZIndex: =8
+
+            Icon3 As icon.Add:
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Icon: =Icon.Waypoint
+                OnSelect: =Select(Parent)
+                Width: =70
+                X: =538
+                Y: =30
+                ZIndex: =9
+
+        Icon4 As icon.Add:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =70
+            Icon: =Icon.Phone
+            OnSelect: =Select(Parent)
+            Width: =44
+            X: =454
+            Y: =20
+            ZIndex: =11
+

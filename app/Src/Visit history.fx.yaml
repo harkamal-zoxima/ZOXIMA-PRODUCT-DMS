@@ -1,0 +1,209 @@
+"'Visit history' As screen":
+
+    Gallery2_3 As gallery.galleryVertical:
+        Height: =946
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        ShowScrollbar: =false
+        TemplateSize: =344
+        Y: =102
+        ZIndex: =3
+
+        Label7_2 As label:
+            Color: =RGBA(103, 204, 107, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =19
+            Text: ="Panchsheel titles"
+            Width: =264
+            X: =30
+            Y: =30
+            ZIndex: =1
+
+        TextInput2_2 As text:
+            BorderColor: =RGBA(103, 204, 107, 1)
+            Default: =""
+            DisabledBorderColor: =RGBA(103, 204, 107, 1)
+            DisabledFill: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.Disabled
+            Height: =308
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Size: =21
+            Width: =606
+            X: =12
+            Y: =20
+            ZIndex: =2
+
+        Label39_13 As label:
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Id"
+            Width: =228
+            X: =40
+            Y: =40
+            ZIndex: =7
+
+        Label39_14 As label:
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Date"
+            Width: =228
+            X: =40
+            Y: =70
+            ZIndex: =8
+
+        Label39_15 As label:
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Status"
+            Width: =228
+            X: =40
+            Y: =100
+            ZIndex: =9
+
+        Label39_16 As label:
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Check In Time"
+            Width: =228
+            X: =40
+            Y: =130
+            ZIndex: =10
+
+        Label39_17 As label:
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Check Out Time"
+            Width: =228
+            X: =40
+            Y: =160
+            ZIndex: =11
+
+        Label39_18 As label:
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Objective"
+            Width: =228
+            X: =40
+            Y: =190
+            ZIndex: =12
+
+        Label39_19 As label:
+            Color: =RGBA(179, 179, 179, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Remarks"
+            Width: =228
+            X: =40
+            Y: =220
+            ZIndex: =13
+
+        Label39_20 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Id"
+            Width: =96
+            X: =492
+            Y: =35
+            ZIndex: =14
+
+        Label39_21 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Id"
+            Width: =96
+            X: =492
+            Y: =65
+            ZIndex: =15
+
+        Label39_22 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Id"
+            Width: =96
+            X: =492
+            Y: =95
+            ZIndex: =16
+
+        Label39_23 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Id"
+            Width: =96
+            X: =492
+            Y: =125
+            ZIndex: =17
+
+        Label39_24 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Id"
+            Width: =96
+            X: =492
+            Y: =155
+            ZIndex: =18
+
+        Label39_25 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Id"
+            Width: =96
+            X: =492
+            Y: =185
+            ZIndex: =19
+
+        Label39_26 As label:
+            Color: =RGBA(116, 116, 116, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =37
+            OnSelect: =Select(Parent)
+            Size: =15
+            Text: ="Visit Id"
+            Width: =96
+            X: =492
+            Y: =215
+            ZIndex: =20
+

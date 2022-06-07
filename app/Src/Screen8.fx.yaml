@@ -1,0 +1,661 @@
+Screen8 As screen:
+
+    Canvas2_3 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =656
+        Width: =Parent.Width
+        Y: =480
+        ZIndex: =5
+
+        DataCard2_3 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =488
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Gallery5_1 As gallery.galleryVertical:
+                BorderColor: =RGBA(166, 166, 166, 1)
+                Height: =864
+                Items: =[]
+                Layout: =Layout.Vertical
+                TemplateSize: =204
+                ZIndex: =1
+
+                Rectangle4_1 As rectangle:
+                    BorderColor: =RGBA(230, 230, 230, 1)
+                    BorderThickness: =1
+                    DisabledFill: =RGBA(166, 166, 166, 1)
+                    Fill: =RGBA(237, 237, 237, 0.36)
+                    FocusedBorderThickness: =4
+                    Height: =201
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    OnSelect: =Select(Parent)
+                    PressedFill: =RGBA(73, 130, 5, 1)
+                    Width: =630
+                    ZIndex: =1
+
+                Label13_8 As label:
+                    FontWeight: =FontWeight.Semibold
+                    Height: =70
+                    OnSelect: =Select(Parent)
+                    Size: =19
+                    Text: ="Ultratech Cement Smartfit"
+                    Width: =377
+                    X: =219
+                    Y: =8
+                    ZIndex: =2
+
+                Label19_35 As label:
+                    Color: =RGBA(103, 204, 107, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =25
+                    OnSelect: =Select(Parent)
+                    Size: =14
+                    Text: ="Bags"
+                    Width: =72
+                    X: =233
+                    Y: =78
+                    ZIndex: =3
+
+                Label19_36 As label:
+                    FontWeight: =FontWeight.Semibold
+                    Height: =25
+                    OnSelect: =Select(Parent)
+                    Size: =14
+                    Text: ="23"
+                    Width: =72
+                    X: =309
+                    Y: =78
+                    ZIndex: =4
+
+                Label19_39 As label:
+                    Color: =RGBA(103, 204, 107, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =25
+                    OnSelect: =Select(Parent)
+                    Size: =14
+                    Text: ="Price"
+                    Width: =68
+                    X: =449
+                    Y: =78
+                    ZIndex: =5
+
+                Label19_40 As label:
+                    FontWeight: =FontWeight.Semibold
+                    Height: =25
+                    OnSelect: =Select(Parent)
+                    Size: =14
+                    Text: ="23,000"
+                    Width: =100
+                    X: =514
+                    Y: =78
+                    ZIndex: =6
+
+                TextInput5 As text:
+                    BorderColor: =RGBA(103, 204, 107, 1)
+                    BorderThickness: =1
+                    Color: =RGBA(51, 51, 51, 1)
+                    Default: =""
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    Font: =Font.Lato
+                    Height: =35
+                    HintText: ="0"
+                    HoverBorderColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverColor: =RGBA(51, 51, 51, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    OnSelect: =Select(Parent)
+                    PressedBorderColor: =RGBA(73, 130, 5, 1)
+                    PressedColor: =RGBA(51, 51, 51, 1)
+                    PressedFill: =RGBA(255, 255, 255, 1)
+                    RadiusBottomLeft: =10
+                    RadiusBottomRight: =10
+                    RadiusTopLeft: =10
+                    RadiusTopRight: =10
+                    Size: =14
+                    Width: =70
+                    X: =371
+                    Y: =142
+                    ZIndex: =11
+
+                HtmlText1_62 As htmlViewer:
+                    Color: =RGBA(242, 242, 242, 1)
+                    Height: =191
+                    HtmlText: |-
+                        ="<div style='border-radius:15px 15px 15px 15px; background-color:#F2F2F2; border:2px solid #D3D4D6; width:200px; height:170px'></div>"
+                    OnSelect: =Select(Parent)
+                    Width: =219
+                    X: =8
+                    Y: =10
+                    ZIndex: =12
+
+                Image2_2 As image:
+                    BorderColor: =RGBA(0, 0, 0, 0)
+                    BorderStyle: =BorderStyle.None
+                    BorderThickness: =2
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =170
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Image: |-
+                        ="data:image/jpeg;base64,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"
+                    OnSelect: =Select(Parent)
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =189
+                    X: =18
+                    Y: =17
+                    ZIndex: =13
+
+                Icon9 As icon.Trash:
+                    BorderColor: =RGBA(166, 166, 166, 1)
+                    Color: =RGBA(103, 204, 107, 1)
+                    DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                    DisabledColor: =RGBA(220, 220, 220, 1)
+                    DisabledFill: =RGBA(0, 0, 0, 0)
+                    FocusedBorderThickness: =4
+                    Height: =20
+                    HoverBorderColor: =RGBA(0, 0, 0, 0)
+                    HoverColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    HoverFill: =RGBA(0, 0, 0, 0)
+                    Icon: =Icon.Trash
+                    OnSelect: =
+                    PressedBorderColor: =RGBA(0, 0, 0, 0)
+                    PressedColor: =ColorFade(RGBA(73, 130, 5, 1), -30%)
+                    PressedFill: =RGBA(0, 0, 0, 0)
+                    Width: =20
+                    X: =591
+                    Y: =13
+                    ZIndex: =14
+
+                Group15_4 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-135
+                    Y: =-81
+                    ZIndex: =22
+
+                    HtmlText1_63 As htmlViewer:
+                        Height: =56
+                        HtmlText: |-
+                            ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                        OnSelect: =
+                        Width: =90
+                        X: =295
+                        Y: =137
+                        ZIndex: =7
+
+                    Label4_18 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(53, 166, 57, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =26
+                        OnSelect: =
+                        Size: =20
+                        Text: ="-"
+                        Width: =59
+                        X: =296
+                        Y: =147
+                        ZIndex: =8
+
+                Group15_5 As group:
+                    Height: =5
+                    Width: =5
+                    X: =-116
+                    Y: =-197
+                    ZIndex: =24
+
+                    HtmlText1_64 As htmlViewer:
+                        Height: =56
+                        HtmlText: |-
+                            ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:50px; height:35px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                        OnSelect: =
+                        Width: =142
+                        X: =455
+                        Y: =137
+                        ZIndex: =9
+
+                    Label4_19 As label:
+                        Align: =Align.Center
+                        BorderColor: =RGBA(0, 0, 0, 0)
+                        BorderStyle: =BorderStyle.None
+                        BorderThickness: =2
+                        Color: =RGBA(53, 166, 57, 1)
+                        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                        FocusedBorderThickness: =4
+                        Font: =Font.Lato
+                        FontWeight: =FontWeight.Semibold
+                        Height: =26
+                        OnSelect: =
+                        Size: =20
+                        Text: ="+"
+                        Width: =59
+                        X: =456
+                        Y: =147
+                        ZIndex: =10
+
+    Group10 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =39
+
+        HtmlText1_59 As htmlViewer:
+            BorderThickness: =1
+            Height: =445
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#FFF; width:500px; height:420px; margin-top: 15px; margin-left: 15px; box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;'></div>"
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Width: =532
+            X: =54
+            Y: =24
+            ZIndex: =1
+
+        Label4_32 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Order No."
+            Width: =208
+            X: =97
+            Y: =53
+            ZIndex: =2
+
+        Label4_38 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =33
+            Size: =12
+            Text: ="54"
+            Width: =142
+            X: =126
+            Y: =80
+            ZIndex: =3
+
+        HtmlText1_66 As htmlViewer:
+            Height: =38
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =168
+            X: =117
+            Y: =80
+            ZIndex: =4
+
+        Label4_33 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Order Date"
+            Width: =229
+            X: =309
+            Y: =53
+            ZIndex: =6
+
+        Label4_39 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =22
+            Size: =12
+            Text: ="16/05/2022"
+            Width: =143
+            X: =366
+            Y: =87
+            ZIndex: =7
+
+        HtmlText1_67 As htmlViewer:
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =165
+            X: =355
+            Y: =81
+            ZIndex: =8
+
+        Label4_34 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Order Type"
+            Width: =208
+            X: =97
+            Y: =118
+            ZIndex: =9
+
+        Label4_40 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="₹75,000"
+            Width: =144
+            X: =126
+            Y: =144
+            ZIndex: =10
+
+        HtmlText1_68 As htmlViewer:
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =170
+            X: =117
+            Y: =144
+            ZIndex: =11
+
+        Label4_35 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Order Source"
+            Width: =229
+            X: =309
+            Y: =118
+            ZIndex: =12
+
+        Label4_41 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="₹5,000"
+            Width: =153
+            X: =365
+            Y: =140
+            ZIndex: =13
+
+        HtmlText1_69 As htmlViewer:
+            Height: =39
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =162
+            X: =356
+            Y: =141
+            ZIndex: =14
+
+        Label4_36 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =30
+            Size: =12
+            Text: ="Order Status"
+            Width: =208
+            X: =97
+            Y: =185
+            ZIndex: =15
+
+        Label4_42 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="₹80,000"
+            X: =126
+            Y: =209
+            ZIndex: =16
+
+        HtmlText1_70 As htmlViewer:
+            Height: =36
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =159
+            X: =117
+            Y: =209
+            ZIndex: =17
+
+        Label4_37 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Distributor"
+            Width: =224
+            X: =314
+            Y: =179
+            ZIndex: =18
+
+        Label4_43 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="54"
+            Width: =152
+            X: =365
+            Y: =207
+            ZIndex: =19
+
+        HtmlText1_71 As htmlViewer:
+            Height: =38
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =161
+            X: =356
+            Y: =207
+            ZIndex: =20
+
+        Label4_44 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =33
+            Size: =12
+            Text: ="Document No."
+            Width: =208
+            X: =97
+            Y: =250
+            ZIndex: =21
+
+        Label4_45 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="54"
+            X: =126
+            Y: =274
+            ZIndex: =22
+
+        HtmlText1_72 As htmlViewer:
+            Height: =38
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =159
+            X: =117
+            Y: =274
+            ZIndex: =23
+
+        Label4_46 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Reference No."
+            Width: =229
+            X: =309
+            Y: =245
+            ZIndex: =24
+
+        Label4_47 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="54"
+            Width: =152
+            X: =364
+            Y: =270
+            ZIndex: =25
+
+        HtmlText1_73 As htmlViewer:
+            Height: =38
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =161
+            X: =355
+            Y: =270
+            ZIndex: =26
+
+        Label4_48 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Remarks"
+            Width: =208
+            X: =97
+            Y: =313
+            ZIndex: =27
+
+        Label4_49 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="54"
+            Width: =145
+            X: =126
+            Y: =336
+            ZIndex: =28
+
+        HtmlText1_74 As htmlViewer:
+            Height: =38
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =170
+            X: =117
+            Y: =336
+            ZIndex: =29
+
+        Label4_50 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Sched ule Date of delivery"
+            Width: =229
+            X: =321
+            Y: =313
+            ZIndex: =30
+
+        Label4_51 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="54"
+            Width: =153
+            X: =365
+            Y: =336
+            ZIndex: =31
+
+        HtmlText1_75 As htmlViewer:
+            Height: =38
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =162
+            X: =356
+            Y: =336
+            ZIndex: =32
+
+        Label4_52 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =28
+            Size: =12
+            Text: ="Total qty."
+            Width: =208
+            X: =97
+            Y: =375
+            ZIndex: =33
+
+        Label4_53 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="54"
+            Width: =151
+            X: =126
+            Y: =396
+            ZIndex: =34
+
+        HtmlText1_76 As htmlViewer:
+            Height: =38
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =160
+            X: =117
+            Y: =396
+            ZIndex: =35
+
+        Label4_54 As label:
+            Align: =Align.Center
+            Font: =Font.Lato
+            Height: =36
+            Size: =12
+            Text: ="Total Amount"
+            Width: =224
+            X: =321
+            Y: =367
+            ZIndex: =36
+
+        Label4_55 As label:
+            Align: =Align.Center
+            Color: =RGBA(53, 166, 57, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =36
+            Size: =12
+            Text: ="54"
+            X: =362
+            Y: =394
+            ZIndex: =37
+
+        HtmlText1_77 As htmlViewer:
+            Height: =38
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.2; width:150px; height:25px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Width: =159
+            X: =353
+            Y: =394
+            ZIndex: =38
+

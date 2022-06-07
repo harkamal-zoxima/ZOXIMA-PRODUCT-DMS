@@ -1,0 +1,223 @@
+Screen4 As screen:
+
+    Rectangle9 As rectangle:
+        Fill: =RGBA(238, 243, 249, 1)
+        Height: =79
+        Width: =640
+        ZIndex: =1
+
+    Label1_5 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =52
+        Size: =19
+        Text: ="Filter By"
+        Width: =293
+        X: =10
+        Y: =13
+        ZIndex: =2
+
+    Icon3_2 As icon.Cancel:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =33
+        Icon: =Icon.Cancel
+        OnSelect: =Back()
+        Width: =29
+        X: =586
+        Y: =23
+        ZIndex: =3
+
+    Gallery11 As gallery.galleryVertical:
+        Fill: =RGBA(238, 243, 249, 0.61)
+        Height: =985
+        Items: |-
+            =[
+                {
+                    title: "Pipes",
+                    subMenu: [
+                        {title: "Pipes"},
+                        {title: "Cement"},
+                        {title: "Bricks"},
+                        {title: "Fabrics"}
+                        
+                    ]
+                },
+                {
+                    title: "Cement",
+                    subMenu: [
+                        {title: "Ok1"},
+                        {title: "Flats"}
+                    ]
+                },
+                   {
+                    title: "Steel",
+                    subMenu: [
+                        {title: "Ok1"},
+                        {title: "Flats"}
+                    ]
+                },
+                  {
+                    title: "Plastics",
+                    subMenu: [
+                        {title: "Ok1"},
+                        {title: "Flats"}
+                    ]
+                },
+                  {
+                    title: "Textiles",
+                    subMenu: [
+                        {title: "Ok1"},
+                        {title: "Flats"}
+                    ]
+                },
+                  {
+                    title: "Glass",
+                    subMenu: [
+                        {title: "Ok1"},
+                        {title: "Flats"}
+                    ]
+                },
+                {
+                    title: "Price",
+                    subMenu: [
+                        {title: "Ok2"},
+                        {title: "Flats"}
+                    ]
+                },
+                {
+                    title: "Size",
+                    subMenu: [
+                        {title: "Ok3"},
+                        {title: "Flats"}
+                    ]
+                },
+                {
+                    title: "Gender",
+                    subMenu: [
+                        {title: "Ok4"},
+                        {title: "Flats"}
+                    ]
+                },
+                {
+                    title: "Shape",
+                    subMenu: [
+                        {title: "Ok5"},
+                        {title: "Flats"}
+                    ]
+                },
+                {
+                    title: "Style",
+                    subMenu: [
+                        {title: "Ok6"},
+                        {title: "Flats"}
+                    ]
+                },
+                {
+                    title: "Material",
+                    subMenu: [
+                        {title: "Ok7"},
+                        {title: "Flats"}
+                    ]
+                }
+            ]
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =52
+        Width: =258
+        Y: =79
+        ZIndex: =4
+
+        Rectangle11 As rectangle:
+            Fill: =RGBA(202, 202, 202, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =258
+            Y: =51
+            ZIndex: =1
+
+        Label4_16 As label:
+            Height: =52
+            OnSelect: =ClearCollect(subItems, ThisItem.Value.subMenu)
+            PaddingLeft: =15
+            Size: =16
+            Text: =ThisItem.Value.title
+            Width: =258
+            ZIndex: =2
+
+    Button5 As button:
+        BorderThickness: =0
+        Fill: =RGBA(82, 82, 82, 1)
+        Height: =56
+        HoverFill: =
+        RadiusBottomLeft: =2
+        RadiusBottomRight: =2
+        RadiusTopLeft: =2
+        RadiusTopRight: =2
+        Size: =16
+        Text: ="Clear"
+        Width: =303
+        X: =10
+        Y: =1070
+        ZIndex: =5
+
+    Button5_1 As button:
+        BorderThickness: =0
+        Fill: =RGBA(69, 150, 243, 1)
+        Height: =56
+        HoverFill: =
+        OnSelect: =Back()
+        RadiusBottomLeft: =2
+        RadiusBottomRight: =2
+        RadiusTopLeft: =2
+        RadiusTopRight: =2
+        Size: =16
+        Text: ="Apply"
+        Width: =303
+        X: =327
+        Y: =1070
+        ZIndex: =6
+
+    Gallery11_1 As gallery.galleryVertical:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =985
+        Items: =subItems
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =62
+        Width: =382
+        X: =258
+        Y: =79
+        ZIndex: =7
+
+        Rectangle11_1 As rectangle:
+            Fill: =RGBA(202, 202, 202, 1)
+            Height: =1
+            OnSelect: =Select(Parent)
+            Width: =Gallery11_1.Width-20
+            X: =5
+            Y: =61
+            ZIndex: =1
+
+        Label4_17 As label:
+            Height: =62
+            OnSelect: =Select(Parent)
+            PaddingLeft: =10
+            Size: =16
+            Text: =ThisItem.Value.title
+            Width: =352
+            X: =30
+            ZIndex: =2
+
+        Checkbox2 As checkbox:
+            CheckboxBorderColor: =RGBA(128, 128, 128, 1)
+            CheckboxSize: =25
+            FocusedBorderColor: =
+            FocusedBorderThickness: =
+            Height: =62
+            OnSelect: =Select(Parent)
+            PressedBorderColor: =
+            Size: =21
+            Text: =""
+            Width: =30
+            X: =9
+            ZIndex: =3
+

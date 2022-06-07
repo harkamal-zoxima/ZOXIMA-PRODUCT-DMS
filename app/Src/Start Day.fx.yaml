@@ -1,0 +1,189 @@
+"'Start Day' As screen":
+
+    Image5 As image:
+        Height: =570
+        Image: ='START SCREEN – 10'
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =481
+        ZIndex: =1
+
+    HtmlText1_19 As htmlViewer:
+        Color: =RGBA(103, 204, 107, 1)
+        Height: =334
+        HtmlText: |-
+            ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =0
+        PaddingRight: =0
+        PaddingTop: =0
+        Width: =640
+        ZIndex: =2
+
+    "'Bottom Navigation_3' As 'Bottom Navigation'":
+        NavItems: |-
+            =Table( {
+                   // Title: If(varAttendance = "end" , "End", varAttendance = "start" , "Start", varAttendance = "done" , "Ended"),
+                   Title: Start,
+                    //Screen: If(varAttendance= "start" , Start, varAttendance= "end" , Start_3, varAttendance= "done" , Start_5),
+                    Screen: 'Start Day',
+                    Icon: CalendarBlank,
+                    Active: true
+                },
+                {
+                    Title: "Visits",
+                    Screen: Screen1,
+                    Icon: Waypoint,
+                    Active: false
+                },
+                {
+                    Title: "Dashboard",
+                    Screen: Screen1,
+                    Icon: Waffle,
+                    Active: false
+                },
+                {
+                    Title: "Customer",
+                    Screen: Screen1,
+                    Icon: People,
+                    Active: false
+                },
+                {
+                    Title: "Menu",
+                    Screen: Screen1,
+                    Icon: Hamburger,
+                    Active: false
+                }
+                )
+        Y: =1056
+        ZIndex: =3
+
+    HtmlText1_20 As htmlViewer:
+        BorderThickness: =1
+        Height: =313
+        HtmlText: |-
+            ="<div style='border-radius:10px; background-color:#FFF; width:500px; height:290px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+        PaddingBottom: =0
+        PaddingLeft: =10
+        PaddingRight: =0
+        PaddingTop: =10
+        Width: =514
+        X: =63
+        Y: =68
+        ZIndex: =4
+
+    Image1_2 As image:
+        BorderColor: =RGBA(204, 204, 204, 1)
+        BorderThickness: =1
+        Height: =119
+        Image: =emp
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Width: =123
+        X: =259
+        Y: =188
+        ZIndex: =5
+
+    Label3_4 As label:
+        Color: =RGBA(103, 204, 107, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =44
+        Size: =20
+        Text: ="Vaishali Jindal"
+        Width: =190
+        X: =225
+        Y: =130
+        ZIndex: =6
+
+    Label3_5 As label:
+        Color: =RGBA(242, 123, 68, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =20
+        Text: ="Salesperson"
+        Width: =110
+        X: =265
+        Y: =320
+        ZIndex: =7
+
+    Label3_6 As label:
+        Color: =RGBA(116, 116, 116, 1)
+        Font: =Font.Lato
+        FontWeight: =FontWeight.Semibold
+        Height: =44
+        Size: =20
+        Text: ="WELCOME BACK !"
+        Width: =240
+        X: =200
+        Y: =94
+        ZIndex: =8
+
+    "'Side Bar_4' As 'Side Bar'":
+        Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
+        Height: =1136
+        ZIndex: =13
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =14
+
+        HtmlText2_1 As htmlViewer:
+            Height: =123
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            OnSelect: =Navigate('Select Day Type')
+            Width: =378
+            X: =144
+            Y: =452
+            ZIndex: =9
+
+        Label3_7 As label:
+            Align: =Align.Center
+            Color: =RGBA(83, 173, 88, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =70
+            OnSelect: =Navigate('Select Day Type')
+            Size: =24
+            Text: ="START"
+            Width: =289
+            X: =186
+            Y: =468
+            ZIndex: =11
+
+    Group3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =14
+
+        HtmlText2_2 As htmlViewer:
+            Height: =113
+            HtmlText: |-
+                ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:360px; height:90px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+            Size: =25
+            Width: =378
+            X: =144
+            Y: =583
+            ZIndex: =10
+
+        Label3_8 As label:
+            Align: =Align.Center
+            Color: =RGBA(83, 173, 88, 1)
+            Font: =Font.Lato
+            FontWeight: =FontWeight.Semibold
+            Height: =65
+            Size: =24
+            Text: ="LEAVE"
+            Width: =289
+            X: =185
+            Y: =601
+            ZIndex: =12
+

@@ -1,0 +1,426 @@
+"Screen2 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Canvas1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =1040
+        Width: =Parent.Width
+        Y: =
+        ZIndex: =3
+
+        DataCard1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =2061
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            HtmlText1_8 As htmlViewer:
+                Height: =143
+                HtmlText: |-
+                    ="<div style='border-radius:10px; background-color:#BBA1EB; opacity: 0.3; width:170px; height:130px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;'></div>"
+                Width: =181
+                X: =24
+                Y: =491
+                ZIndex: =1
+
+            HtmlText1_9 As htmlViewer:
+                Height: =144
+                HtmlText: |-
+                    ="<div style='border-radius:10px; background-color:#1A9FE4; width:170px;opacity: 0.3; height:130px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;'></div>"
+                Width: =184
+                X: =230
+                Y: =643
+                ZIndex: =2
+
+            HtmlText1_10 As htmlViewer:
+                Height: =142
+                HtmlText: |-
+                    ="<div style='border-radius:10px; background-color:#67CC6B; opacity: 0.3; width:170px; height:130px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;'></div>"
+                Width: =185
+                X: =229
+                Y: =492
+                ZIndex: =3
+
+            HtmlText1_11 As htmlViewer:
+                Height: =145
+                HtmlText: |-
+                    ="<div style='border-radius:10px; background-color:#95D4E0; width:170px;opacity: 0.3; height:130px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;'></div>"
+                Width: =188
+                X: =24
+                Y: =643
+                ZIndex: =4
+
+            HtmlText1_12 As htmlViewer:
+                Height: =147
+                HtmlText: |-
+                    ="<div style='border-radius:10px; background-color:#F28DB4; width:170px;opacity: 0.3; height:130px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;'></div>"
+                Width: =186
+                X: =430
+                Y: =492
+                ZIndex: =5
+
+            HtmlText1_13 As htmlViewer:
+                Height: =144
+                HtmlText: |-
+                    ="<div style='border-radius:10px; background-color:#EBCD43; width:170px;opacity: 0.3; height:130px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;'></div>"
+                Width: =192
+                X: =430
+                Y: =643
+                ZIndex: =6
+
+            HtmlText1_14 As htmlViewer:
+                Color: =RGBA(103, 204, 107, 1)
+                Height: =334
+                HtmlText: |-
+                    ="<div style='border-radius:0; background-color:#67CC6B; width:640px; height:330px'></div>"
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Width: =640
+                ZIndex: =7
+
+            HtmlText1_15 As htmlViewer:
+                BorderThickness: =1
+                Height: =326
+                HtmlText: |-
+                    ="<div style='border-radius:10px; background-color:#FFF; width:500px; height:300px; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;'></div>"
+                PaddingBottom: =0
+                PaddingLeft: =10
+                PaddingRight: =0
+                PaddingTop: =10
+                Width: =514
+                X: =63
+                Y: =86
+                ZIndex: =8
+
+            Label1_2 As label:
+                Color: =RGBA(0, 0, 0, 0.6)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =22
+                Text: ="Sales Report"
+                Width: =560
+                X: =28
+                Y: =416
+                ZIndex: =9
+
+            Label2_12 As label:
+                Align: =Align.Center
+                Color: =RGBA(142, 117, 189, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Bold
+                Height: =44
+                Size: =18
+                Text: ="44,000"
+                Width: =121
+                X: =54
+                Y: =558
+                ZIndex: =10
+
+            Label2_13 As label:
+                Align: =Align.Center
+                Color: =RGBA(142, 117, 189, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =44
+                Size: =11
+                Text: ="Today Primary Sales"
+                Width: =158
+                X: =36
+                Y: =518
+                ZIndex: =11
+
+            Label2_14 As label:
+                Align: =Align.Center
+                Color: =RGBA(88, 173, 91, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Bold
+                Height: =44
+                Size: =18
+                Text: ="75,000"
+                Width: =121
+                X: =260
+                Y: =562
+                ZIndex: =12
+
+            Label2_15 As label:
+                Align: =Align.Center
+                Color: =RGBA(88, 173, 91, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =44
+                Size: =11
+                Text: ="Weekly Primary Sales"
+                Width: =170
+                X: =236
+                Y: =523
+                ZIndex: =13
+
+            Label2_16 As label:
+                Align: =Align.Center
+                Color: =RGBA(219, 118, 157, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Bold
+                Height: =44
+                Size: =18
+                Text: ="2,30,000"
+                Width: =121
+                X: =462
+                Y: =563
+                ZIndex: =14
+
+            Label2_17 As label:
+                Align: =Align.Center
+                Color: =RGBA(219, 118, 157, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =44
+                Size: =11
+                Text: ="MTD Primary Sales"
+                Width: =158
+                X: =444
+                Y: =523
+                ZIndex: =15
+
+            Label2_18 As label:
+                Align: =Align.Center
+                Color: =RGBA(107, 179, 194, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Bold
+                Height: =44
+                Size: =18
+                Text: ="12,500"
+                Width: =121
+                X: =53
+                Y: =713
+                ZIndex: =16
+
+            Label2_19 As label:
+                Align: =Align.Center
+                Color: =RGBA(107, 179, 194, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =44
+                Size: =11
+                Text: ="Today Secondary Sales"
+                Width: =158
+                X: =35
+                Y: =673
+                ZIndex: =17
+
+            Label2_20 As label:
+                Align: =Align.Center
+                Color: =RGBA(26, 159, 228, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Bold
+                Height: =44
+                Size: =18
+                Text: ="66,000"
+                Width: =121
+                X: =263
+                Y: =712
+                ZIndex: =18
+
+            Label2_21 As label:
+                Align: =Align.Center
+                Color: =RGBA(26, 159, 228, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =44
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =11
+                Text: ="Weekly Secondary Sales"
+                Width: =170
+                X: =235
+                Y: =673
+                ZIndex: =19
+
+            Label2_22 As label:
+                Align: =Align.Center
+                Color: =RGBA(209, 180, 50, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Bold
+                Height: =44
+                Size: =18
+                Text: ="4,50,000"
+                Width: =121
+                X: =461
+                Y: =712
+                ZIndex: =20
+
+            Label2_23 As label:
+                Align: =Align.Center
+                Color: =RGBA(209, 180, 50, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =44
+                Size: =11
+                Text: ="MTD Secondary Sales"
+                Width: =158
+                X: =443
+                Y: =672
+                ZIndex: =21
+
+            Image1_1 As image:
+                BorderColor: =RGBA(204, 204, 204, 1)
+                BorderThickness: =1
+                Height: =59
+                Image: =emp
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Width: =56
+                X: =112
+                Y: =126
+                ZIndex: =22
+
+            Label3_2 As label:
+                Color: =RGBA(116, 116, 116, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                Size: =20
+                Text: ="Vaishali Jindal"
+                Width: =349
+                X: =203
+                Y: =116
+                ZIndex: =23
+
+            Label3_3 As label:
+                Color: =RGBA(242, 123, 68, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =25
+                Text: ="Sales Person"
+                Width: =278
+                X: =203
+                Y: =160
+                ZIndex: =24
+
+            Label4_8 As label:
+                Font: =Font.Lato
+                Height: =36
+                Text: ="Attendance Type"
+                X: =125
+                Y: =212
+                ZIndex: =25
+
+            Label4_9 As label:
+                Color: =RGBA(53, 166, 57, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =36
+                Size: =20
+                Text: ="Present"
+                X: =125
+                Y: =241
+                ZIndex: =26
+
+            Label4_10 As label:
+                Font: =Font.Lato
+                Height: =36
+                Text: ="Total Hours Worked"
+                Width: =180
+                X: =375
+                Y: =212
+                ZIndex: =27
+
+            Label4_11 As label:
+                Color: =RGBA(53, 166, 57, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =36
+                Size: =20
+                Text: ="3.06"
+                Width: =180
+                X: =375
+                Y: =241
+                ZIndex: =28
+
+            Label4_12 As label:
+                Font: =Font.Lato
+                Height: =36
+                Text: ="Day Started At"
+                X: =125
+                Y: =296
+                ZIndex: =29
+
+            Label4_13 As label:
+                Color: =RGBA(53, 166, 57, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =36
+                Size: =20
+                Text: |-
+                    ="09:05 AM"
+                X: =125
+                Y: =325
+                ZIndex: =30
+
+            Label4_14 As label:
+                Font: =Font.Lato
+                Height: =36
+                Text: ="Day Ended At"
+                X: =375
+                Y: =296
+                ZIndex: =31
+
+            Label4_15 As label:
+                Color: =RGBA(53, 166, 57, 1)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =36
+                Size: =20
+                Text: |-
+                    ="04:45 PM"
+                X: =375
+                Y: =325
+                ZIndex: =32
+
+            Icon2_1 As icon.Bell:
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =35
+                Icon: =Icon.Bell
+                Width: =33
+                X: =576
+                Y: =22
+                ZIndex: =34
+
+            Label1_3 As label:
+                Color: =RGBA(0, 0, 0, 0.6)
+                Font: =Font.Lato
+                FontWeight: =FontWeight.Semibold
+                Height: =70
+                Size: =22
+                Text: ="Target vs Achievement"
+                Width: =560
+                X: =28
+                Y: =806
+                ZIndex: =35
+
+            "'Side Bar_2' As 'Side Bar'":
+                Fill: =If(varOpen, RGBA(255, 255, 255, 1), Transparent)
+                ZIndex: =36
+
+    Image3 As image:
+        Height: =51
+        Image: ='zoxima logo only'
+        Width: =199
+        X: =202
+        Y: =26
+        ZIndex: =4
+
+    "'Bottom Navigation_1' As 'Bottom Navigation'":
+        Y: =1056
+        ZIndex: =5
+
